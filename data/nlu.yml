@@ -90,9 +90,6 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
-- intent: ask_godexists
+- intent: ask_god_exists
   examples: |
     - does God exist?
-    - is it true that God exists?
-    - can you prove God exists?
-    - is there really a god?

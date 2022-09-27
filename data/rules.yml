@@ -12,7 +12,7 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
-- rule: does God exist
+- rule: does God exist?
   steps:
-  - intent: ask_godexists
-  - action: utter_godexists
+  - intent: ask_god_exists
+  - action: reply_god_exists
