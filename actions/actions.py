@@ -25,3 +25,13 @@
 #         dispatcher.utter_message(text="Hello World!")
 #
 #         return []
+
+from rasa_sdk.interfaces import Action
+
+class AskGodExists(Action):
+    def name(self):
+        return 'ask_god_exists'
+
+    def run(self, dispatcher, tracker, domain):
+        dispatcher.utter_message(template="reply_god_exists")
+        return []
