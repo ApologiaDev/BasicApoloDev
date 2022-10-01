@@ -8,7 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - ask_god_exists
+  - ask_godexists
 
 responses:
   utter_greet:
@@ -30,7 +30,7 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
-  reply_god_exists:
+  reply_godexists:
   - text: "God exists because there has to be a first cause, who is God."
 
 session_config:
