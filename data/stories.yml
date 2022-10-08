@@ -32,4 +32,4 @@ stories:
 - story: existence of God
   steps:
     - intent: ask_godexists
-    - action: reply_godexists
+    - action: utter_godexists

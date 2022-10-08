@@ -16,7 +16,7 @@ actions:
   - utter_did_that_help
   - utter_happy
   - utter_goodbye
-  - reply_godexists
+  - utter_godexists
   - utter_iamabot
 
 responses:
@@ -36,7 +36,7 @@ responses:
   utter_goodbye:
   - text: "Bye"
 
-  reply_godexists:
+  utter_godexists:
   - text: "God exists because there has to be a first cause, who is God."
 
   utter_iamabot:
