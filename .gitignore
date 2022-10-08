@@ -242,3 +242,7 @@ cython_debug/
 # RASA specific
 .rasa/
 models/*.tar.gz
+
+# PyCharm
+.idea/
+
