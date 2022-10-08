@@ -29,7 +29,7 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: God reply_god_exists
+- story: existence of God
   steps:
     - intent: ask_godexists
     - action: reply_godexists

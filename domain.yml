@@ -10,6 +10,15 @@ intents:
   - bot_challenge
   - ask_godexists
 
+actions:
+  - utter_greet
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_happy
+  - utter_goodbye
+  - reply_godexists
+  - utter_iamabot
+
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -27,11 +36,12 @@ responses:
   utter_goodbye:
   - text: "Bye"
 
+  reply_godexists:
+  - text: "God exists because there has to be a first cause, who is God."
+
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
-  reply_godexists:
-  - text: "God exists because there has to be a first cause, who is God."
 
 session_config:
   session_expiration_time: 60
