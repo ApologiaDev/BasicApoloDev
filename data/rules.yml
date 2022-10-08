@@ -15,4 +15,4 @@ rules:
 - rule: does God exist
   steps:
   - intent: ask_godexists
-  - action: reply_godexists
+  - action: utter_godexists
